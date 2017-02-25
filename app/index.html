@@ -1,0 +1,29 @@
+<html ng-app="app">
+    <head>
+        <title>Filmwep2</title>
+        <link rel="stylesheet" href="app.style.css" />
+    </head>
+
+    <body ng-controller="filmwepCtrl">
+        <nav>
+            <a href="#!"> Home </a>
+            <a href="#!search"> Search </a>
+        </nav>
+        <div ng-view> 
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+        </script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-route.js"></script>
+
+        <script src="app.module.js"></script>
+        <script src="app.controller.js"></script>
+        
+        <script src="movie-search/movie-search.module.js"></script>
+        <script src="movie-search/movie-search.service.js"></script>
+        <script src="movie-search/search-list/movie-search.controller.js"></script>
+        <script src="movie-search/movie-detail/movie-detail.controller.js"></script>
+
+        <script src="movie-search/movieSearchDirective/movie-search.directive.js"></script>
+    </body>
+</html>

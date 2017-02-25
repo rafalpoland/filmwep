@@ -1,0 +1,12 @@
+.filmwep__search-section {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.filmwep__movie-tile {
+    display: inline-block;
+    border: 1px black solid;
+    padding: 10px;
+    height: 200px;
+}
